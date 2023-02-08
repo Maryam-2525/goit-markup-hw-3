@@ -9,7 +9,16 @@
     --dark-bg-color:  #2f303a;
     --light-bg-color: #f5f4f4;
     --btn-bg-color:#f5f4fa;
-    --footer-lnk-color:rgba(255, 255, 255, 0.6);
+    --footer-lnk-color:rgba(255, 255, 255, 0.6);  
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+html{
+    box-sizing: border-box;
+}
+img{
+    display: block;
     
 }
 
@@ -199,7 +208,7 @@ ul{
 }
 
 .portfolio-des{
-    font-style: medium;
+    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: calc(36/18);  
@@ -208,7 +217,7 @@ ul{
 }
 
 .portfolio-text{
-    font-style: medium;
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: calc(30/16);
