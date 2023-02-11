@@ -77,6 +77,19 @@ ul{
     color: var(--other-color);
 }
 
+.page-header{
+    padding-top: 32px;
+}
+.algn-itm{
+    align-items: spa;
+}
+
+.disp-flex-nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+
 /* HERO */
 .hero-section{
     background-color: var(--dark-bg-color);
@@ -120,12 +133,14 @@ ul{
 }
 /* WHAT WE DO SECTION */
 .what-we-do-tittle{
+    text-align: center;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42/36);
     letter-spacing: 0.03em;
     color: var(--main-text-color);
+    padding-bottom: 50px;
 }
 
 /* SKILLS SECTION */
@@ -159,15 +174,21 @@ ul{
 
 
 }
+
+.skills-list-item{
+    margin-left: 30px;
+}
 /* TEAM SECTION */
 
 .team-header{
+    text-align: center;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42/36);
     letter-spacing: 0.03em;
     color: var(--main-text-color);
+    padding-bottom: 50px;
 }
 .team{
     background-color: var(--light-bg-color);
@@ -191,6 +212,9 @@ ul{
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 
+}
+.mrgn-top{
+    margin-top: 30px;
 }
    
 /* PORTFOLIO SECTION */
@@ -222,6 +246,11 @@ ul{
     line-height: calc(36/18);  
     letter-spacing: 0.06em;
     color: var(--main-text-color); 
+    text-align: left;margin: 0 24px;
+    margin: 0 24px;
+    padding: 0;
+    margin-bottom: 24px;
+
 }
 
 .portfolio-text{
@@ -231,7 +260,24 @@ ul{
     line-height: calc(30/16);
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
+    text-align: left;
+    margin: 0 24px;
+    padding: 0;
+    margin-bottom: 24px;
+
 }
+
+.port-disp-flex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 117-px;
+   
+}
+.cards{
+    background-color: var(--white-color);
+    border: ;
+}
+
 
 /* FOOTER */
 .address{
@@ -251,3 +297,26 @@ ul{
    vertical-align: top;
    color:var(--footer-lnk-color);
 }
+
+/* GENERAL SECTION STYLES */
+.section{
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.container{
+    width: 1600px;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+
+.disp-flex{
+    display: flex;
+    margin-top: -30px;
+    margin-left: -30px;
+}
+
+.list-item-mrgn{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
