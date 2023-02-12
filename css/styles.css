@@ -25,6 +25,7 @@ img{
 
 body{
     font-family: "Roboto" ,"sans-serif";
+    width: ;
 }
 
 a{
@@ -79,15 +80,15 @@ ul{
 
 .page-header{
     padding-top: 32px;
-}
-.algn-itm{
-    align-items: spa;
+    border-bottom: solid 1px;
+    border-radius: 1px;
+    border-color: var(--secondary-text-color);
 }
 
 .disp-flex-nav{
     display: flex;
     justify-content: space-between;
-
+    
 }
 
 /* HERO */
@@ -142,6 +143,9 @@ ul{
     color: var(--main-text-color);
     padding-bottom: 50px;
 }
+.what-we-do{
+    width: 1170px;
+}
 
 /* SKILLS SECTION */
 .skills-header{
@@ -171,12 +175,14 @@ ul{
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 
-
-
 }
 
 .skills-list-item{
     margin-left: 30px;
+}
+
+.algn-itm{
+    align-items: center;
 }
 /* TEAM SECTION */
 
@@ -231,6 +237,9 @@ ul{
     cursor: pointer;
     border: none;
     background-color: var(--btn-bg-color);
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 5px;
 }
 
 .portfolio-btn-item:hover,
@@ -270,12 +279,16 @@ ul{
 .port-disp-flex{
     display: flex;
     flex-wrap: wrap;
-    width: 117-px;
-   
+    width: 1170px;
+    background-color: var(--white-color);
+    
 }
 .cards{
-    background-color: var(--white-color);
-    border: ;
+    border-bottom: solid 1px;
+    border-color: var(--secondary-text-color);
+}
+.cont-jstfy{
+    justify-content: center;
 }
 
 
@@ -300,20 +313,23 @@ ul{
 
 /* GENERAL SECTION STYLES */
 .section{
-    padding-top: 130px;
-    padding-bottom: 130px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+
 }
 .container{
-    width: 1600px;
+    width: 1200px;
     padding: 0 50px;
     margin: 0 auto;
 }
+
 
 .disp-flex{
     display: flex;
     margin-top: -30px;
     margin-left: -30px;
 }
+
 
 .list-item-mrgn{
     margin-right: 20px;
