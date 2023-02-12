@@ -279,12 +279,11 @@ ul{
 .port-disp-flex{
     display: flex;
     flex-wrap: wrap;
-    width: 1170px;
     background-color: var(--white-color);
     
 }
 .cards{
-    border-bottom: solid 1px;
+    border-bottom: 10pxpx;
     border-color: var(--secondary-text-color);
 }
 .cont-jstfy{
@@ -319,8 +318,7 @@ ul{
 }
 .container{
     width: 1200px;
-    padding: 0 50px;
-    margin: 0 auto;
+
 }
 
 
