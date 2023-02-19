@@ -67,7 +67,7 @@ ul{
 /* HEADER */
 
 .page-header{
-    border-bottom: 1px solid var(--secondary-text-color);
+    border-bottom: 1px solid #ECECEC;
 }
 .logo{
     font-family: 'Raleway';
@@ -77,6 +77,8 @@ ul{
     line-height: calc(31 / 26 );
     letter-spacing: 0.03em;
     color: var(--other-color);
+    margin-bottom: 10px;
+    display: block;
 }
 .nav-bar{
     display: flex;
@@ -183,6 +185,7 @@ ul{
 .what-we-do{
     padding-top: 0;
 }
+
 .what-we-do-tittle{
     text-align: center;
     font-style: normal;
@@ -201,7 +204,6 @@ ul{
 
 .what-we-do-item:not(:last-child){
     margin-right: 30px;
-
 }
 
 
@@ -257,7 +259,7 @@ ul{
     margin-bottom: 50px;
 }
 .team-section{
-    background-color: var(--light-bg-color)
+    background-color: var(--white-color)
 }
 .team{
     display: flex;
@@ -300,10 +302,11 @@ ul{
 .portfolio-btn{
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .portfolio-btn-item{
     font-family: 'Roboto';
-    font-style: medium;
+    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: calc(26/16);
@@ -314,7 +317,7 @@ ul{
     border: none;
     border-radius:0px 0px 4px 4px ;
     background-color: var(--btn-bg-color);
-    margin-right: 5px;
+    margin-right: 8px;
     margin-bottom: 10px;
     padding-left:27px;
     padding-right: 27px;
@@ -336,10 +339,10 @@ ul{
     letter-spacing: 0.06em;
     color: var(--main-text-color); 
     text-align: left;
-    margin-top: 20px;
+    margin-top:24PX ;
     margin: 0 24px;
     padding: 0;
-    margin-bottom: 24px;
+    margin-bottom: 10px;
 
 }
 
@@ -359,7 +362,7 @@ ul{
 .port-border{
     border-radius: 2px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12);
-    border-color: #ECECEC; 
+    border-color: #EEEEEE; 
 }
 .port-disp-flex{
     display: flex;
