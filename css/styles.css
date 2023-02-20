@@ -266,6 +266,7 @@ ul{
 .team-item{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12);
     border-radius: 0px 0px 4px 4px;
+    background-color: var(--white-color);
     
 }
 .team-item:not(:last-child){
@@ -282,7 +283,7 @@ ul{
     color: var(--main-text-color);
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     
 }
 .team-text{ 
@@ -293,7 +294,6 @@ ul{
     color: var(--secondary-text-color);
     margin-bottom: 16px;
     text-align: center;
-
 }
 
    
